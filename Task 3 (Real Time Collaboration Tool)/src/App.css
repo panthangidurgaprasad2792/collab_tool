@@ -1,0 +1,51 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #cfd9df, #e2ebf0);
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 70px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000000;
+  text-shadow: 9px 9px 7px rgba(55, 99, 157, 0.86);
+}
+
+
+
+textarea {
+  width: 80%;
+  height: 60vh;
+  padding: 20px;
+  font-size: 1.5rem;
+  color: #000000;
+  background: #ffffffd3;
+  border: 8px solid #847f78;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  resize: none;
+  transition: all 0.2s ease;
+}
+
+textarea:focus {
+  border-color: #28a45e;
+  box-shadow: 0 8px 25px rgba(46, 139, 87, 0.5);
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  textarea {
+    width: 90%;
+    height: 50vh;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+}

@@ -1,0 +1,34 @@
+# Dependency directories
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+build/
+**/dist/
+**/build/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+.env
+.env.*
+
+# Ignore all files in client/ except .gitkeep or source files
+client/*
+!client/.gitkeep
+!client/*.html
+!client/*.js
+!client/*.ts
+!client/*.css
